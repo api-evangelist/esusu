@@ -1,8 +1,16 @@
 aid: esusu
 name: Esusu
-description: 'Esusu is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Esusu is a financial technology company that turns rent payments into
+  credit history. Founded in 2018 by Abbey Wemimo and Samir Goel and headquartered
+  in New York City, Esusu reports on-time rental payments to the three major credit
+  bureaus (Equifax, TransUnion, and Experian) so renters can build and improve their
+  credit scores. The platform serves renters, property owners and managers, employers,
+  banks, and fintechs with rent reporting, credit building, rent relief, marketplace
+  rewards, and income, identity, and SSN verification. For partners, Esusu offers embedded
+  rent-reporting APIs, UI tools, and SDKs (behind a sandbox and self-service docs)
+  so banks and fintechs can distribute rent reporting as a service. Backed by SoftBank
+  Vision Fund 2 and Serena Ventures, Esusu reached a $1.2 billion valuation in 2025
+  and reports across millions of rental units in all 50 US states.'
 url: https://raw.githubusercontent.com/api-evangelist/esusu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +18,70 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68e4cb3f80596b64cbfc5505/68fb6891b669c716797f564a_Home.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Fintech
+- Financial Services
+- Credit
+- Credit Building
+- Rent Reporting
+- Real Estate
+- Identity Verification
+- Income Verification
 apis: []
+common:
+- type: DomainSecurity
+  url: security/esusu-domain-security.yml
+- type: Website
+  url: https://www.esusurent.com/
+- type: Portal
+  url: https://www.esusurent.com/banks-fintechs
+  name: Banks & Fintechs (Embedded Rent Reporting APIs)
+- type: Support
+  url: https://esusu.zendesk.com/hc/en-us
+  name: Esusu Help Center
+- type: Blog
+  url: https://www.esusurent.com/blog
+- type: Login
+  url: https://client.esusu.com/
+  name: Properties Login
+- type: TermsOfService
+  url: https://www.esusurent.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.esusurent.com/privacy-policy
+- type: Security
+  url: https://www.esusurent.com/security-at-esusu
+- type: Compliance
+  url: https://www.esusurent.com/security-at-esusu
+- type: Conformance
+  url: conformance/esusu-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/esusu-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/esusu-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

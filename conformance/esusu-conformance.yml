@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.esusurent.com/security-at-esusu
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'Security page states Esusu is SOC 2 Type 2 certified; cloud data storage
+    partners are also SOC 2 Type 2 certified.'
+- id: iso-27001
+  conforms: true
+  evidence: 'Security page states Esusu is ISO 27001 certified (audited by A-LIGN).'
+- id: encryption-at-rest-in-transit
+  conforms: true
+  evidence: 'Security page states data is encrypted both at rest and in transit.'
+- id: mfa-personnel
+  conforms: true
+  evidence: 'Security page states multi-factor authentication is required for personnel
+    accessing cloud services.'
+certifications:
+- SOC 2 Type 2
+- ISO 27001
+notes: 'Compliance posture is published on the public security page. No public OpenAPI,
+  developer portal, or API reference is available (the embedded rent-reporting API,
+  SDKs, and sandbox are gated behind a partner demo/onboarding), so cross-cutting
+  API standards (oauth2, rfc9457, pagination, etc.) could not be derived from a spec.'

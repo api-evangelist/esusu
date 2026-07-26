@@ -1,0 +1,30 @@
+# Esusu
+
+> Esusu is a financial technology company that turns rent payments into credit history. Founded in 2018 by Abbey Wemimo and Samir Goel and headquartered in New York City, Esusu reports on-time rental payments to Equifax, TransUnion, and Experian so renters can build credit. It also offers embedded rent-reporting APIs, UI tools, and SDKs (behind a sandbox and self-service docs) for banks and fintechs. Backed by SoftBank Vision Fund 2 and Serena Ventures; reached a $1.2B valuation in 2025.
+
+Note: Esusu does not publish a public developer portal, OpenAPI/API reference, or package registry libraries. The embedded rent-reporting API, SDKs, and sandbox are gated behind a partner demo/onboarding.
+
+## Products
+- [Banks & Fintechs (Embedded Rent Reporting APIs)](https://www.esusurent.com/banks-fintechs): Plug-and-play rent-reporting APIs, UI tools, and SDKs for banks and fintechs
+- [Rent Reporting](https://www.esusurent.com/rent-reporting): Report on-time rent payments to the three major credit bureaus
+- [Real Estate](https://esusurent.com/real-estate): Rent reporting and fraud prevention for property managers
+- [Identity Verification](https://www.esusurent.com/identity-verification): Identity, income, and SSN verification services
+
+## Docs
+- [Help Center](https://esusu.zendesk.com/hc/en-us): Self-service support and FAQs
+- [Security at Esusu](https://www.esusurent.com/security-at-esusu): Security posture, SOC 2 Type 2 and ISO 27001 certifications, security@esusu.org contact
+
+## Company
+- [About](https://www.esusurent.com/about): Company overview
+- [Blog](https://www.esusurent.com/blog): News and product updates
+- [Careers](https://www.esusurent.com/careers): Open roles
+- [Press & Media](https://www.esusurent.com/press-media): Press coverage
+
+## Legal
+- [Terms & Conditions](https://www.esusurent.com/terms-conditions)
+- [Privacy Policy](https://www.esusurent.com/privacy-policy)
+
+## Artifacts
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/esusu/refs/heads/main/conformance/esusu-conformance.yml): Published certifications (SOC 2 Type 2, ISO 27001)
+- [Vulnerability Disclosure](https://raw.githubusercontent.com/api-evangelist/esusu/refs/heads/main/security/esusu-vulnerability-disclosure.yml): Security contact and disclosure
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/esusu/refs/heads/main/security/esusu-domain-security.yml): TLS/DNS security posture probe
