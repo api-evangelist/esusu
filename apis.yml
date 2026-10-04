@@ -48,11 +48,11 @@ tags:
 - Company
 - Enterprise
 - Fintech
-- Financial-Services
+- Financial Services
 - Credit
 - Credit Building
 - Rent Reporting
-- Real-Estate
+- Real Estate
 - Identity Verification
 - Income Verification
 tags_raw:
@@ -66,6 +66,8 @@ tags_raw:
 - Real Estate
 - Identity Verification
 - Income Verification
+- Financial-Services
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
